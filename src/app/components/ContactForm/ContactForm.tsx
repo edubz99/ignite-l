@@ -1,27 +1,4 @@
-"use client";
-
-import { useMemo, useState } from "react";
 import styles from "./ContactForm.module.css";
-import Select from "react-select";
-import countryList from "react-select-country-list";
-
-// function CountrySelector() {
-//   const [value, setValue] = useState("");
-//   const options = useMemo(() => countryList().getData(), []);
-
-//   const changeHandle = (value: unknown) => {
-//     setValue(value);
-//   };
-
-//   return (
-//     <Select
-//       onChange={changeHandle}
-//       options={options}
-//       value={value}
-//       id="country"
-//     />
-//   );
-// }
 
 const ContactForm = () => {
   return (
@@ -83,13 +60,6 @@ const ContactForm = () => {
             />
           </div>
         </div>
-
-        {/* <div className={styles.row}>
-          <div className={styles.inputGroup}>
-            <label htmlFor="country">*Country</label>
-            <CountrySelector />
-          </div>
-        </div> */}
 
         <div className={styles.textAreaGroup}>
           <label htmlFor="needs">*Tell us more about your needs</label>
