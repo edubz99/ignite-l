@@ -21,7 +21,7 @@ const AboutSection = () => {
           <h2 className={styles.title}>I’m Thanda Mhlanga</h2>
           <p className={styles.description}>
             A Leadership and Management expert who views inclusive and
-            compassionate leadership as a moral obligation.I have over 20 years
+            compassionate leadership as a moral obligation. I have over 20 years
             of combined experience in{" "}
             <span className={styles.highlight}>
               Leadership and Management: Leading and Managing Change, Strategic
