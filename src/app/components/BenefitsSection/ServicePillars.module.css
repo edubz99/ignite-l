@@ -1,0 +1,121 @@
+.Services {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  font-family: "Playwrite IN", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #eb5b28;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.benefitsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.serviceCard {
+  background-color: #f9fbfd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ctaContainer {
+  margin-top: 3rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #f9b03d;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.ctaButton:hover {
+  background-color: #ffd34e;
+}
+
+.iconWrapper {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 2.5rem; /* Adjust icon size as needed */
+  color: #eb5b28; /* Accent color for icons */
+}
+
+.benefitTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.benefitDescription {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Services {
+    max-width: 90%;
+    margin-top: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .serviceCard {
+    padding: 1rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+}

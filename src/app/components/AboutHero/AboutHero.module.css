@@ -1,0 +1,79 @@
+/* AboutHero.module.css */
+
+.aboutHero {
+  position: relative;
+  background-image: url("/thanda-2.png"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px; /* Adjust height as needed */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.contentBox {
+  position: relative;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: -250px; /* Overlaps the image */
+  z-index: 2;
+}
+
+.greeting {
+  font-family: "Playwrite IN", serif;
+  color: #eb5b28; /* Accent color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: #000;
+  background-color: #f9b03d;
+  padding: 0 0.2rem;
+  font-weight: bold;
+}
+
+.subDescription {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .aboutHero {
+    height: 400px;
+  }
+
+  .contentBox {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}

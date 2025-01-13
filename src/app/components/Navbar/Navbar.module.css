@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+  z-index: 10;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #eb5b28; /* Accent color for "Cooper" */
+}
+
+.menuIcon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.navLinks a:hover {
+  color: #eb5b28; /* Accent color */
+}
+
+/* Mobile menu */
+.active {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  top: 115px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #333; /* Default color */
+  transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+  color: #eb5b28; /* Matches the site's accent color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menuIcon {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    margin-top: 0;
+    border-top: 0;
+  }
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+}

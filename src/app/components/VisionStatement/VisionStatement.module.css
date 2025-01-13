@@ -1,0 +1,26 @@
+.visionSection {
+  background-color: #f9fbfd; /* Light background to stand out */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Playwrite IN", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eb5b28;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 0;
+}

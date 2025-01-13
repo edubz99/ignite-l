@@ -1,0 +1,109 @@
+/* AboutSection.module.css */
+
+.aboutSection {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.textContent {
+  max-width: 600px;
+}
+
+.greeting {
+  font-family: "Playwrite IN", serif;
+  color: #eb5b28;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.highlight {
+  background-color: #f9b03d;
+  padding: 0 0.2rem;
+  color: #000;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #f9b03d;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #ffd34e;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.statBox {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.statNumber {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f9b03d;
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    padding: 5rem 1rem 3rem 1rem;
+  }
+  .statsContainer {
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+}
