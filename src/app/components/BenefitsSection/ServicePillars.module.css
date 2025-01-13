@@ -113,6 +113,7 @@
 
   .serviceCard {
     padding: 1rem;
+    max-width: 100%;
   }
 
   .icon {

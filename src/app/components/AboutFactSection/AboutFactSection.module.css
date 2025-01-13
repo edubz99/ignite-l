@@ -1,5 +1,5 @@
 .factsSection {
-  margin-top: 300px;
+  margin-top: 400px;
   padding: 4rem 2rem;
   background-color: #f9fbfd; /* Light blue background */
   text-align: center;
@@ -92,6 +92,10 @@
 @media (max-width: 768px) {
   .title {
     font-size: 2rem;
+  }
+
+  .factsSection {
+    margin-top: 350px;
   }
 
   .description {

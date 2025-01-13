@@ -20,7 +20,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   max-width: 600px;
   text-align: center;
-  margin-bottom: -250px; /* Overlaps the image */
+  margin-bottom: -350px; /* Overlaps the image */
   z-index: 2;
 }
 
