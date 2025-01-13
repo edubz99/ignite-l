@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right, 50%, 50%;
+  overflow-x: hidden;
 }
 
 .textContainer {
@@ -84,15 +85,3 @@
     font-size: 2rem;
   }
 }
-
-/* Add wave effect */
-/* .hero::before {
-  content: "";
-  position: absolute;
-  bottom: -30px;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: url("/wave-bg.svg") no-repeat bottom center;
-  background-size: cover;
-} */

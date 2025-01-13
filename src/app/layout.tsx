@@ -7,7 +7,6 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
-// Add Playwrite IN and Poppins fonts
 import { Poppins } from "next/font/google";
 const playwriteIN = {
   variable: "--font-playwrite",
