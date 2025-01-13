@@ -1,8 +1,9 @@
+import ContactForm from "../components/ContactForm/ContactForm";
 import Layout from "../layout";
 
 const Contact: React.FC = () => (
   <Layout>
-    <h1 style={{ display: "none" }}>Contact Us</h1>
+    <ContactForm />
   </Layout>
 );
 

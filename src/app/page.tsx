@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection/AboutSection";
 import ServicePillars from "./components/BenefitsSection/ServicePillars";
+import ContactForm from "./components/ContactForm/ContactForm";
 import LandingHero from "./components/LandingHero/LandingHero";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
 import VisionStatement from "./components/VisionStatement/VisionStatement";
@@ -13,6 +14,7 @@ export default function Home() {
       <VisionStatement />
       <AboutSection />
       <ServicesSection />
+      <ContactForm />
     </Layout>
   );
 }
