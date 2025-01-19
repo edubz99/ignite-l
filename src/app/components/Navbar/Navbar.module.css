@@ -17,7 +17,7 @@
 }
 
 .logo span {
-  color: #eb5b28; /* Accent color for "Cooper" */
+  color: #eb5b28;
 }
 
 .menuIcon {
@@ -41,7 +41,7 @@
 }
 
 .navLinks a:hover {
-  color: #eb5b28; /* Accent color */
+  color: #eb5b28;
 }
 
 /* Mobile menu */
@@ -69,16 +69,15 @@
 
 .socialIcons a {
   text-decoration: none;
-  font-size: 1.5rem; /* Adjust size as needed */
-  color: #333; /* Default color */
+  font-size: 1.5rem;
+  color: #333;
   transition: color 0.3s;
 }
 
 .socialIcons a:hover {
-  color: #eb5b28; /* Matches the site's accent color */
+  color: #eb5b28;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .menuIcon {
     display: block;

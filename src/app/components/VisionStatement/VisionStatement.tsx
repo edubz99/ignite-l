@@ -6,11 +6,11 @@ const VisionStatement = () => {
       <div className={styles.container}>
         <h2 className={styles.title}>Vision Statement</h2>
         <p className={styles.description}>
-          To be one of the world’s leading consultancy firms in supporting
-          organisations embrace diversity and an inclusive organisational
-          culture. We believe passionately that contributing to the development
-          of a more inclusive, compassionate, and humane organisational culture
-          is a moral obligation.
+          Our vision is to be a global leader in helping organisations embrace
+          diversity and build inclusive cultures. We are driven by a deep belief
+          that fostering more inclusive, compassionate, and humane
+          organisational environments is not just a goal, but a moral
+          imperative.
         </p>
       </div>
     </section>

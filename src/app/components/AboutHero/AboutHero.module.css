@@ -1,12 +1,10 @@
-/* AboutHero.module.css */
-
 .aboutHero {
   position: relative;
-  background-image: url("/thanda-2.png"); /* Replace with actual image path */
+  background-image: url("/thanda-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 550px; /* Adjust height as needed */
+  height: 550px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -26,7 +24,7 @@
 
 .greeting {
   font-family: "Playwrite IN", serif;
-  color: #eb5b28; /* Accent color */
+  color: #eb5b28;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -59,7 +57,6 @@
   color: #666;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .aboutHero {
     height: 400px;
@@ -70,7 +67,7 @@
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .description {

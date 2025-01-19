@@ -1,8 +1,6 @@
-/* ServicesSection.module.css */
-
 .servicesSection {
   padding: 4rem 2rem;
-  background-color: #f9fbfd; /* Light blue background */
+  background-color: #f9fbfd;
   text-align: center;
 }
 
@@ -58,16 +56,16 @@
   height: 200px;
   overflow: hidden;
   position: relative;
-  transition: transform 0.3s; /* Add hover effect here */
+  transition: transform 0.3s;
 }
 
 .imageWrapper:hover {
-  transform: scale(1.05); /* Scale effect on hover */
+  transform: scale(1.05);
 }
 
 .image {
   object-fit: cover;
-  transition: transform 0.3s; /* Smooth scaling */
+  transition: transform 0.3s;
 }
 
 .cardContent {
@@ -100,6 +98,9 @@
 }
 
 @media (max-width: 768px) {
+  .description {
+    font-size: 0.9rem;
+  }
   .servicesSection {
     padding: 1rem;
   }

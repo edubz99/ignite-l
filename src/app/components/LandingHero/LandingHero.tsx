@@ -8,27 +8,31 @@ const HeroSection = () => {
         <h3 className={styles.subtitle}>
           A Leading Consultant in Inclusive and Compassionate Leadership
         </h3>
-        <h1 className={styles.title}>Unlock Your True Leadership Potential</h1>
         <p className={styles.description}>
-          To ignite Inclusive and Compassionate Leadership in organisations.
+          I am Dr Thanda Mhlanga and was raised under the guiding philosophy of
+          <strong> ubuntu</strong>, a Nguni term that holds deep personal
+          significance. Ubuntu embodies the essence of humanity towards others -
+          being present, affirming, and supportive.
         </p>
         <p className={styles.description}>
-          Unmasking organisational behaviour and structural inequalities that
-          favour certain social groups and disadvantage others.
+          It is rooted in values such as social justice, fairness, duty of care,
+          compassion, allyship, goodwill, civility, respect, and dignity. These
+          principles are vital for cultivating a compassionate, inclusive, and
+          just organisational culture - one where every employee is visible,
+          celebrated, and empowered to be their authentic self, regardless of
+          their background.
         </p>
-        <a href="#contact" className={styles.button}>
-          LET&apos;S GET STARTED &rarr;
+        <a href="/about" className={styles.link}>
+          Read my full story here →
         </a>
       </div>
       <div className={styles.imageContainer}>
         <Image
-          src="/thanda-presenting.png"
-          alt="Thanda"
-          width={500}
-          height={600}
+          src="/dr-thanda-presenting-2.png"
+          alt="Dr Thanda Mhlanga"
+          width={600}
+          height={400}
           className={styles.image}
-          sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
         />
       </div>
     </section>

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar/Navbar";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -40,9 +39,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const today = new Date();
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -59,17 +57,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${playwriteIN.variable}`}
       >
-        <Navbar />
         {children}
-        <footer>
-          <div className="inner-footer">
-            <p>
-              {" "}
-              &copy; {today.getFullYear()} Ignite Inclusive Leadership. All
-              rights reserved.
-            </p>
-          </div>
-        </footer>
       </body>
     </html>
   );

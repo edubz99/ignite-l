@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
       </ul>
       <div className={styles.socialIcons}>
         <a
-          href="https://uk.linkedin.com/in/dr-thanda-mhlanga-41625b8b"
+          href="https://www.linkedin.com/in/dr-thanda-mhlanga-41625b8b/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
-          href="mailto:thandamhlanga@hotmail.co.uk"
+          href="mailto:thanda.mhlanga@igniteinclusiveleadership.com"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Email"
