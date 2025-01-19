@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import styles from "./ServicePillars.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,6 +11,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const ServicePillars = () => {
+  const pathname = usePathname();
+  const isServicesPages = pathname === "/services";
   const [activeTab, setActiveTab] = useState("Workforce Composition");
   const [showHint, setShowHint] = useState(true);
 
@@ -100,11 +103,13 @@ const ServicePillars = () => {
           ))}
       </div>
 
-      <div className={styles.ctaContainer}>
-        <a href="/services" className={styles.ctaButton}>
-          Find out more &rarr;
-        </a>
-      </div>
+      {!isServicesPages ? (
+        <div className={styles.ctaContainer}>
+          <a href="/services" className={styles.ctaButton}>
+            Find out more &rarr;
+          </a>
+        </div>
+      ) : null}
     </section>
   );
 };
