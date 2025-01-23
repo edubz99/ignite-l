@@ -8,15 +8,15 @@ const ServicesHero = () => {
         <div className={styles.container}>
           <div className={styles.textBox}>
             <p className={styles.subtitle}>Let&apos;s get started</p>
-            <h1 className={styles.title}>How Can I Help You</h1>
+            <h1 className={styles.title}>Our Values and Commitment</h1>
             <p className={styles.description}>
-              Ignite Inclusive Leadership (IIL) is inspired by the Zulu
-              philosophy of &apos;ubuntu,&apos; which emphasizes humanity,
-              connection, and shared responsibility: &apos;I am because we
-              are.&apos; IIL fosters compassionate and inclusive leadership to
-              create more humane, rational, and just organizations, focusing on
-              workforce composition, recruitment, career progression, and
-              cultivating a just and inclusive workplace culture.
+              The name Ignite Inclusive Leadership (IIL) reflects our commitment
+              to ubuntu and inclusive, compassionate leadership. Our logo
+              embodies this vision: two hands of diverse backgrounds unite to
+              cradle a warm flame, symbolising the collective effort to ignite
+              inclusivity and spark transformative change. This powerful image
+              conveys our belief in unity and shared purpose to drive lasting
+              impact.
             </p>
             <a href="#contact" className={styles.button}>
               LET&apos;S GET STARTED &rarr;

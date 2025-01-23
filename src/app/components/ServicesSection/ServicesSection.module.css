@@ -9,17 +9,15 @@
 }
 
 .subtitle {
-  font-family: "Playwrite IN", serif;
   color: #eb5b28;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .title {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
   color: #333;
 }
 
@@ -106,6 +104,6 @@
   }
 
   .description {
-    max-width: 90%;
+    max-width: 100%;
   }
 }

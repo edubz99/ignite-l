@@ -10,6 +10,13 @@
   overflow-x: hidden;
 }
 
+.title {
+  color: #eb5b28;
+  margin-top: 0;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
 .textContainer {
   max-width: 50%;
   padding: 1rem;
@@ -32,21 +39,6 @@
 
 .description strong {
   color: #eb5b28;
-}
-
-.link {
-  display: inline-block;
-  margin-top: 1.5rem;
-  font-size: 1rem;
-  color: #eb5b28;
-  font-weight: bold;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.3s ease, color 0.3s ease;
-}
-
-.link:hover {
-  border-color: #eb5b28;
 }
 
 .imageContainer {
@@ -87,8 +79,9 @@
     padding: 0;
   }
 
-  .subtitle {
-    font-size: 1.5rem;
+  .title {
+    font-size: 2rem;
+    line-height: normal;
   }
 
   .description {

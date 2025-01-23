@@ -1,5 +1,4 @@
 import MissionStatement from "./components/AboutFactSection/MissionStatement";
-import AboutSection from "./components/AboutSection/AboutSection";
 import ServicePillars from "./components/BenefitsSection/ServicePillars";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
@@ -15,7 +14,6 @@ export default function Home() {
       <Navbar />
       <LandingHero />
       <MissionStatement />
-      <AboutSection />
       <VisionStatement />
       <ServicePillars />
       <ServicesSection />

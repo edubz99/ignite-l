@@ -1,5 +1,4 @@
 import ServicePillars from "../components/BenefitsSection/ServicePillars";
-import ClientInsights from "../components/ClientInsights/ClientInsights";
 import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
@@ -12,7 +11,6 @@ const Services: React.FC = () => (
     <Navbar />
     <ServicesHero />
     <ServicePillars />
-    <ClientInsights />
     <VisionStatement />
     <ContactForm />
     <Footer />

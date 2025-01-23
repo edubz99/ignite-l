@@ -15,7 +15,9 @@ const PersonalStatement = () => {
     <section className={styles.personalStatementSection}>
       <div className={styles.header}>
         <h3 className={styles.subtitle}>Personal Statement</h3>
-        <h2 className={styles.title}>My Commitment to Inclusive Leadership</h2>
+        <h2 className={styles.title}>
+          Defining Leadership Through Expertise and Insight
+        </h2>
       </div>
       <div className={styles.content}>
         <div className={styles.textContent}>

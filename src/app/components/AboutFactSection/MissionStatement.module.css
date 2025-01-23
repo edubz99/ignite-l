@@ -1,6 +1,6 @@
 .missionSection {
-  padding: 4rem 2rem;
-  background-color: #f9fbfd;
+  padding: 8rem 0rem 4rem 0rem;
+  background-color: #fff;
   text-align: center;
   margin: 0rem auto 2rem auto;
 }
@@ -10,8 +10,7 @@
 }
 
 .subtitle {
-  font-family: "Playwrite IN", serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #eb5b28;
   margin-bottom: 0.5rem;
@@ -19,9 +18,11 @@
 }
 
 .title {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 2.8rem;
   font-weight: bold;
-  margin-bottom: 1rem;
   color: #333;
   line-height: 1.4;
 }
@@ -43,7 +44,7 @@
 }
 
 .pointCard {
-  background-color: #fff;
+  background-color: #f9fbfd;
   border-radius: 10px;
   padding: 1.5rem;
   text-align: center;

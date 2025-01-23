@@ -1,5 +1,5 @@
 .personalStatementSection {
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
   background-color: #fff;
   margin: 0 auto;
   text-align: center;
@@ -10,7 +10,6 @@
 }
 
 .subtitle {
-  font-family: "Playwrite IN", serif;
   font-size: 1.2rem;
   color: #eb5b28;
   margin-bottom: 0.5rem;

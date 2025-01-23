@@ -1,236 +1,110 @@
-.Services {
-  padding: 3rem 1rem;
+.servicesSection {
+  padding: 6rem 2rem 8rem 2rem;
   background-color: #fff;
   text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .subtitle {
-  font-family: "Playwrite IN", serif;
+  color: #eb5b28;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #eb5b28;
-  margin-bottom: 0.5rem;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 2rem;
   color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
 }
 
 .descriptionGrid {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .description {
-  flex: 0 0 45%;
-  text-align: start;
   font-size: 1rem;
+  text-align: start;
   color: #555;
-  max-width: 80%;
-  margin: 0 auto 2rem;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
   line-height: 1.6;
 }
 
-.tabsContainer {
-  position: relative;
-  display: flex;
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
 }
 
-.tabButton {
+.serviceCard {
+  background: #f9fbfd;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.iconWrapper {
+  background-color: #eb5b28;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  background-color: #f9fbfd;
-  border: none;
-  border-radius: 5px;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  color: #333;
-  cursor: pointer;
-  transition: all 0.3s, transform 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.tabButton:hover {
-  background-color: #eb5b28;
-  color: #fff;
-  transform: scale(1.05);
-}
-
-.activeTab {
-  background-color: #eb5b28;
-  color: #fff;
+  justify-content: center;
+  margin: 0 auto 1rem;
 }
 
 .icon {
+  color: #fff;
   font-size: 1.5rem;
 }
 
-.hint {
-  position: absolute;
-  top: -3rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #eb5b28;
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  animation: fadeInOut 3s infinite;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-}
-
-.hintArrow {
-  position: absolute;
-  bottom: -0.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 8px solid #eb5b28;
-}
-
-@keyframes fadeInOut {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-}
-
-.content {
-  margin-top: 4rem;
-}
-
-.card {
-  background-color: #f9fbfd;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  margin: 0 auto;
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-.description {
-  max-width: 100%;
-}
-
-.cardTitle {
-  font-size: 1.8rem;
+.serviceTitle {
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #333;
 }
 
-.cardDescription {
-  font-size: 1rem;
+.serviceDescription {
+  font-size: 0.9rem;
   color: #555;
   line-height: 1.6;
 }
 
-.ctaContainer {
-  margin-top: 3rem;
-}
-
-.ctaButton {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #f9b03d;
-  color: #333;
-  font-weight: bold;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-
-.ctaButton:hover {
-  background-color: #ffd34e;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
+/* Responsive Layout */
 @media (max-width: 768px) {
-  .Services {
-    padding: 1rem;
+  .servicesSection {
+    padding: 2rem 1rem;
+  }
+  .servicesGrid {
+    grid-template-columns: 1fr;
   }
 
-  .title {
-    font-size: 1.5rem;
+  .serviceCard {
+    padding: 1.5rem;
   }
 
-  .descriptionGrid {
-    flex-direction: column;
-  }
-
-  .description {
-    font-size: 0.9rem;
-    max-width: 100%;
-  }
-
-  .card {
-    padding: 1rem;
-  }
-
-  .content {
-    margin-top: 2rem;
-  }
-
-  .tabButton {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .icon {
+  .serviceTitle {
     font-size: 1.2rem;
   }
 
-  .cardTitle {
-    font-size: 1.5rem;
-  }
-
-  .cardDescription {
+  .serviceDescription {
     font-size: 0.9rem;
-  }
-
-  .ctaButton {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .hint {
-    top: -3.5rem;
-    width: 225px;
   }
 }

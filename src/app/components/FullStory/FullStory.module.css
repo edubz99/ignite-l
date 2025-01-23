@@ -3,7 +3,6 @@
   background-color: #f9fbfd;
   text-align: center;
   margin: 0 auto;
-  margin-top: 450px;
   position: relative;
   background-image: url("/banner.svg");
   background-repeat: no-repeat;
@@ -16,7 +15,6 @@
 }
 
 .subtitle {
-  font-family: "Playwrite IN", serif;
   font-size: 1.2rem;
   color: #eb5b28;
   margin-bottom: 0.5rem;
@@ -25,8 +23,9 @@
 .title {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 1rem;
+  color: #eb5b28;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .storyContent {

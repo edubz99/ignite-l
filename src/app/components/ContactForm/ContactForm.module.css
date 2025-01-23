@@ -10,7 +10,6 @@
 }
 
 .subtitle {
-  font-family: "Playwrite IN", serif;
   font-size: 1.2rem;
   font-weight: bold;
   color: #eb5b28;
@@ -47,6 +46,9 @@
   flex: 1;
 }
 
+.formDescription {
+  max-width: 800px;
+}
 .form label {
   display: flex;
   margin-bottom: 0.5rem;
@@ -122,6 +124,7 @@
   }
 
   .contactSection {
+    background-image: none;
     padding: 1rem;
   }
   .title {

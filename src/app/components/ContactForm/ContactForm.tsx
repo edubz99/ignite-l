@@ -20,6 +20,14 @@ const ContactForm = () => {
           <h3 className={styles.title}>
             Talk to the Inclusive and Compassionate Leadership expert
           </h3>
+
+          <p className={styles.formDescription}>
+            Committed to real culture change? Contact us to discover how our
+            expertise in compassionate and inclusive leadership can help you
+            build a high performing, inclusive organisation with tailored
+            solutions.
+          </p>
+
           <form className={styles.form}>
             <div className={styles.row}>
               <div className={styles.inputGroup}>
