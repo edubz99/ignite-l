@@ -1,5 +1,5 @@
 .servicesSection {
-  padding: 6rem 2rem 8rem 2rem;
+  padding: 6rem 2rem;
   background-color: #fff;
   text-align: center;
 }
@@ -94,6 +94,10 @@
   }
   .servicesGrid {
     grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 1.5rem;
   }
 
   .serviceCard {

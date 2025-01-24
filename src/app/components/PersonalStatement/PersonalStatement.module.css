@@ -42,55 +42,59 @@
   text-align: left;
   position: relative;
 }
-
-.scrollableContent {
-  position: relative;
-  overflow-y: auto;
-}
-
-.scrollableContent::-webkit-scrollbar {
-  width: 8px;
-}
-
-.scrollableContent::-webkit-scrollbar-thumb {
-  background: #eb5b28;
-  border-radius: 4px;
-}
-
-.scrollableContent::-webkit-scrollbar-track {
-  background: #f5f5f5;
-}
-
-.scrollIndicator {
-  position: absolute;
-  bottom: 10px;
-  right: 0px;
-  transform: translateX(-50%);
-  text-align: center;
-  font-size: 0.8rem;
-  color: #555;
-  animation: fadeInOut 2s infinite;
-}
-
-.arrowDown {
-  font-size: 1.5rem;
-  color: #eb5b28;
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
-@keyframes fadeInOut {
-  0%,
-  100% {
-    opacity: 1;
+@media (min-width: 768px) {
+  .scrollableContent {
+    position: relative;
+    overflow-y: auto;
   }
-  50% {
-    opacity: 0.5;
+  .textContent {
+    min-width: inherit;
   }
-}
 
-.scrollableContent.scrolled + .scrollIndicator {
-  display: none; /* Hide the indicator once scrolled */
+  .scrollableContent::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollableContent::-webkit-scrollbar-thumb {
+    background: #eb5b28;
+    border-radius: 4px;
+  }
+
+  .scrollableContent::-webkit-scrollbar-track {
+    background: #f5f5f5;
+  }
+
+  .scrollIndicator {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    animation: fadeInOut 2s infinite;
+  }
+
+  .arrowDown {
+    font-size: 1.5rem;
+    color: #eb5b28;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  @keyframes fadeInOut {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  .scrollableContent.scrolled + .scrollIndicator {
+    display: none; /* Hide the indicator once scrolled */
+  }
 }
 
 .paragraph {
@@ -117,8 +121,13 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .scrollIndicator {
+    display: none;
+  }
+
   .personalStatementSection {
     padding: 2rem 1rem;
+    text-align: center;
   }
 
   .content {

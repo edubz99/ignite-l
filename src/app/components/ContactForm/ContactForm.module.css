@@ -49,9 +49,11 @@
 .formDescription {
   max-width: 800px;
 }
+
 .form label {
   display: flex;
   margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #555;
 }
@@ -118,25 +120,6 @@
   background-color: #ffd34e;
 }
 
-@media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-  }
-
-  .contactSection {
-    background-image: none;
-    padding: 1rem;
-  }
-  .title {
-    font-size: 1.5rem;
-    max-width: 100%;
-  }
-
-  .form {
-    padding: 2rem 0.5rem;
-  }
-}
-
 .formAndSignature {
   display: flex;
   align-items: end;
@@ -161,4 +144,33 @@
 
 .signatureDetails a {
   color: #eb5b28;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .contactSection {
+    background-image: none;
+    padding: 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+
+  .formDescription {
+    font-size: 0.9rem;
+  }
+
+  .form {
+    padding: 2rem 0.5rem;
+  }
+
+  .signatureDetails a,
+  .signatureDetails p {
+    font-size: 0.9rem;
+    word-wrap: anywhere;
+  }
 }

@@ -61,6 +61,7 @@
     flex-direction: column;
     padding: 2rem 1rem;
     text-align: center;
+    gap: 0rem;
   }
 
   .imageContainer {
@@ -80,11 +81,11 @@
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: normal;
   }
 
   .description {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
