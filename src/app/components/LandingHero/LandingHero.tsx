@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className={styles.hero}>
       <div className={styles.textContainer}>
         <h3 className={styles.title}>
-          A Leading Consultant in Compassionate and Inclusive Leadership
+          A Leading Consultant in Inclusive and Compassionate Leadership
         </h3>
         <p className={styles.description}>
           Dr. Thanda Mhlanga is a transformative leadership consultant with over
@@ -23,7 +23,7 @@ const HeroSection = () => {
           to cultivate a workplace where authenticity thrives, diversity is
           celebrated, and performance excels - unlocking the full potential of
           your workforce while boosting morale and retaining top talent.
-          Compassionate and Inclusive Leadership is a moral imperative.
+          Inclusive and Compassionate Leadership is a moral imperative.
         </p>
       </div>
       <div className={styles.imageContainer}>

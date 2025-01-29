@@ -14,7 +14,6 @@ const PersonalStatement = () => {
   return (
     <section className={styles.personalStatementSection}>
       <div className={styles.header}>
-        <h3 className={styles.subtitle}>Personal Statement</h3>
         <h2 className={styles.title}>
           Defining Leadership Through Expertise and Insight
         </h2>

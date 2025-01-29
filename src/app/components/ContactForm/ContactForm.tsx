@@ -102,7 +102,7 @@ const ContactForm = () => {
               height={360}
               className={styles.image}
             />
-            <p className={styles.title}>Director & Founder</p>
+            <p className={styles.signatureTitle}>Director & Founder</p>
             <p className={styles.company}>Ignite Inclusive Leadership</p>
             <p className={styles.contactInfo}>
               <strong>Mobile:</strong>{" "}

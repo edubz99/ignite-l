@@ -10,19 +10,26 @@
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 2.8rem;
+  line-height: normal;
   font-weight: bold;
   color: #eb5b28;
   margin-bottom: 1.5rem;
 }
 
+.signatureTitle {
+  /* font-size: 1.5rem; */
+  font-weight: bold;
+}
+
 .title {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 2.8rem;
+  line-height: normal;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: #333;
+  color: #eb5b28;
 }
 
 .form {
@@ -48,6 +55,7 @@
 
 .formDescription {
   max-width: 800px;
+  font-size: 1rem;
 }
 
 .form label {
@@ -155,7 +163,8 @@
     background-image: none;
     padding: 1rem;
   }
-  .title {
+  .title,
+  .subtitle {
     font-size: 1.5rem;
     max-width: 100%;
   }

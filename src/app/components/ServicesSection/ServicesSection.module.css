@@ -10,21 +10,24 @@
 
 .subtitle {
   color: #eb5b28;
-  font-size: 1.2rem;
+  font-size: 2.8rem;
+  line-height: normal;
   font-weight: bold;
-  margin-bottom: 0rem;
+  margin-bottom: 1.5rem;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  line-height: normal;
   font-weight: bold;
-  color: #333;
+  color: #eb5b28;
+  margin-top: 0rem;
 }
 
 .description {
   font-size: 1rem;
   color: #555;
-  margin: 0 auto 2rem auto;
+  margin: 2rem auto 4rem auto;
   max-width: 800px;
 }
 

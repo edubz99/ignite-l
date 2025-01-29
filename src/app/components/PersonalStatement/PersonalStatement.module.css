@@ -16,9 +16,13 @@
 }
 
 .title {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 1rem;
+  max-width: 800px;
+  font-size: 2.8rem;
+  line-height: normal;
+  color: #eb5b28;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 .content {

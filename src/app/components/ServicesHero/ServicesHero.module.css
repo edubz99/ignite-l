@@ -1,12 +1,12 @@
 .servicesHero {
   position: relative;
   background-color: #fffaf5;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
   margin-bottom: 12rem;
   background-image: url("/banner.svg");
   background-repeat: no-repeat;
@@ -35,9 +35,10 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  line-height: normal;
   font-weight: bold;
-  color: #333;
+  color: #eb5b28;
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
@@ -70,8 +71,6 @@
 }
 
 .image {
-  width: 100%;
-  height: auto;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -79,7 +78,7 @@
 
 .quoteBox {
   position: absolute;
-  bottom: -12rem;
+  bottom: -14rem;
   left: 20%;
   background-color: #fff;
   padding: 0.5rem;
@@ -120,6 +119,7 @@
 .imageWrapper {
   position: relative;
   grid-area: imageWrapper;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -128,6 +128,10 @@
     grid-template-areas:
       "imageWrapper"
       "textBox";
+  }
+
+  .image {
+    max-width: 90%;
   }
 
   .servicesHero {

@@ -1,5 +1,4 @@
 import AboutHero from "../components/AboutHero/AboutHero";
-import ServicePillars from "../components/BenefitsSection/ServicePillars";
 import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 import FullStory from "../components/FullStory/FullStory";
@@ -14,7 +13,6 @@ const About: React.FC = () => (
     <AboutHero />
     <FullStory />
     <PersonalStatement />
-    <ServicePillars />
     <ContactForm />
     <Footer />
   </Layout>

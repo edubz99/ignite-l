@@ -10,21 +10,22 @@
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 2.8rem;
+  line-height: normal;
   font-weight: bold;
   color: #eb5b28;
-  margin-bottom: 0.5rem;
-  letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .title {
   max-width: 900px;
+  margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   font-size: 2.8rem;
   font-weight: bold;
-  color: #333;
-  line-height: 1.4;
+  color: #eb5b28;
+  line-height: normal;
 }
 
 .description {
@@ -102,7 +103,8 @@
   .missionSection {
     padding: 1rem;
   }
-  .title {
+  .title,
+  .subtitle {
     font-size: 1.5rem;
   }
 

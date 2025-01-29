@@ -40,19 +40,15 @@ const ServicePillars = () => {
     <section className={styles.servicesSection}>
       <div className={styles.header}>
         <h3 className={styles.subtitle}>Our Services</h3>
-        <h2 className={styles.title}>
-          {" "}
-          What services does Ignite Inclusive Leadership offer?
-        </h2>
       </div>
 
       <div className={styles.descriptionGrid}>
         <p className={styles.description}>
-          Services Our inclusive leadership services help leaders embed
-          diversity and inclusion into workforce strategy, creating cultures
-          that reflect and celebrate client diversity. By attracting diverse
-          talent, ensuring equity, and fostering belonging, organisations unlock
-          potential, drive engagement, and achieve high performance.
+          Our inclusive leadership services help leaders embed diversity and
+          inclusion into workforce strategy, creating cultures that reflect and
+          celebrate client diversity. By attracting diverse talent, ensuring
+          equity, and fostering belonging, organisations unlock potential, drive
+          engagement, and achieve high performance.
         </p>
       </div>
 

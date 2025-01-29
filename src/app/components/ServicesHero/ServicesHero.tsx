@@ -7,7 +7,6 @@ const ServicesHero = () => {
       <section className={styles.servicesHero}>
         <div className={styles.container}>
           <div className={styles.textBox}>
-            <p className={styles.subtitle}>Let&apos;s get started</p>
             <h1 className={styles.title}>Our Values and Commitment</h1>
             <p className={styles.description}>
               The name Ignite Inclusive Leadership (IIL) reflects our commitment
@@ -24,9 +23,9 @@ const ServicesHero = () => {
           </div>
           <div className={styles.imageWrapper}>
             <Image
-              src="/thanda-presenting.png"
+              src="/ignite-inclusive-leadership-logo-blue.png"
               alt="Coaching session"
-              width={500}
+              width={450}
               height={600}
               className={styles.image}
             />

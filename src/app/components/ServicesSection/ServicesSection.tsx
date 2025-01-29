@@ -4,22 +4,47 @@ import Image from "next/image";
 const ServicesSection = () => {
   const services = [
     {
-      title: "One-on-One Coaching",
-      description:
-        "Helping clients to identify and set clear, measurable, and achievable goals that align with their values and aspirations.",
+      title: "Contracting",
+      description: "Defining clear outcomes upfront.",
       image: "/business-collaboration.jpg",
     },
     {
-      title: "Fitness Training",
+      title: "Data Collection",
       description:
-        "Assisting clients in developing the knowledge, and abilities they need to be effective leaders, communication.",
+        "Conducting principled research via surveys, focus groups, and individual meetings.",
       image: "/workplace-meeting.jpg",
     },
     {
-      title: "Healthy Lifestyle",
+      title: "Data Analysis",
       description:
-        "Helping clients to identify and pursue career opportunities that align with their values, strengths, and interests.",
+        "Triangulating insights from diverse stakeholder perspectives.",
       image: "/group-of-friends-laughing.jpg",
+    },
+    {
+      title: "Feedback Report",
+      description:
+        "Offering an objective outsider’s perspective as a trusted consultant.",
+      image: "/team-members-having-a-discussion.jpg",
+    },
+    {
+      title: "Intervention Planning",
+      description: "Strategically designing targeted solutions.",
+      image: "/workplace-group-exercise.jpg",
+    },
+    {
+      title: "Implementation",
+      description: "Delivering workshops, coaching, and mentoring.",
+      image: "/group-session.jpg",
+    },
+    {
+      title: "Evaluation",
+      description: "Independently assessing progress toward goals.",
+      image: "/collaborating.jpg",
+    },
+    {
+      title: "Conclusion",
+      description: "Evaluating outcomes and closing the contract.",
+      image: "/candidate-accepting-an-offer.jpg",
     },
   ];
 
@@ -27,11 +52,12 @@ const ServicesSection = () => {
     <section className={styles.servicesSection}>
       <div className={styles.header}>
         <h3 className={styles.subtitle}>About Us</h3>
-        <h2 className={styles.title}>How I Can Help You</h2>
+        <h2 className={styles.title}>Our Consultant-Client System</h2>
         <p className={styles.description}>
-          Help individuals achieve their life goals by providing them with the
-          tools, support, and guidance they need to set and achieve their
-          objectives.
+          Our relationships are grounded in trust, authenticity, transparency,
+          and mutuality. We earn the privilege to support organisations through
+          a disciplined, results-driven approach. This method ensures alignment,
+          accountability, and measurable impact.
         </p>
       </div>
       <div className={styles.cardContainer}>
