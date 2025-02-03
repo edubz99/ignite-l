@@ -38,7 +38,7 @@ const ServicesSection = () => {
     },
     {
       title: "Evaluation",
-      description: "Independently assessing progress toward goals.",
+      description: "Independently assessing progress towards goals.",
       image: "/collaborating.jpg",
     },
     {

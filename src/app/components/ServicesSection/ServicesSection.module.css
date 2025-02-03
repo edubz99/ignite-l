@@ -1,5 +1,5 @@
 .servicesSection {
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 9rem;
   background-color: #f9fbfd;
   text-align: center;
 }
@@ -107,7 +107,7 @@
     font-size: 0.9rem;
   }
   .servicesSection {
-    padding: 1rem;
+    padding: 1rem 1rem 4rem;
   }
 
   .description {

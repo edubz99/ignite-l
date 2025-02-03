@@ -1,5 +1,5 @@
 .servicesSection {
-  padding: 1rem 6rem 2rem;
+  padding: 1rem 6rem 6rem;
   background-color: #fff;
   text-align: center;
 }
@@ -82,7 +82,7 @@
 /* Responsive Layout */
 @media (max-width: 768px) {
   .servicesSection {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 3rem;
   }
   .servicesGrid {
     grid-template-columns: 1fr;
