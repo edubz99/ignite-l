@@ -94,7 +94,7 @@
 }
 
 .quoteAuthor {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #666;
   font-weight: bold;
 }
@@ -185,7 +185,7 @@
   }
 
   .description {
-    font-size: 0.9rem;
+    font-size: 1rem;
     max-width: 90%;
     margin: auto;
   }
