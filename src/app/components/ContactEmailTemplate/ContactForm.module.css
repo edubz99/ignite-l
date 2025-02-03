@@ -1,0 +1,185 @@
+.contactSection {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  background-image: url("/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right, 50%, 50%;
+}
+
+.subtitle {
+  font-size: 2.8rem;
+  line-height: normal;
+  font-weight: bold;
+  color: #eb5b28;
+  margin-bottom: 1.5rem;
+}
+
+.signatureTitle {
+  /* font-size: 1.5rem; */
+  font-weight: bold;
+}
+
+.title {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 2.8rem;
+  line-height: normal;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #eb5b28;
+}
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f9fbfd;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup {
+  gap: 1rem;
+  flex: 1;
+}
+
+.formDescription {
+  max-width: 800px;
+  font-size: 1rem;
+}
+
+.form label {
+  display: flex;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form input,
+.form select,
+.form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #f9b03d;
+  box-shadow: 0 0 5px rgba(255, 208, 66, 0.5);
+}
+
+.form input {
+  width: 90%;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form select {
+  width: 100%;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+.textAreaGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.submitButton {
+  display: inline-block;
+  background-color: #f9b03d;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #ffd34e;
+}
+
+.formAndSignature {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 2rem;
+  width: 100%;
+}
+
+.signatureDetails {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+  height: fit-content;
+}
+
+.signatureDetails a {
+  color: #eb5b28;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .contactSection {
+    background-image: none;
+    padding: 1rem;
+  }
+  .title,
+  .subtitle {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+
+  .formDescription {
+    font-size: 0.9rem;
+  }
+
+  .form {
+    padding: 2rem 0.5rem;
+  }
+
+  .signatureDetails a,
+  .signatureDetails p {
+    font-size: 0.9rem;
+    word-wrap: anywhere;
+  }
+}
